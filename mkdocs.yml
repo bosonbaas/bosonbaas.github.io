@@ -1,0 +1,21 @@
+site_name: Andrew's Website
+
+nav:
+  - About: index.md
+  - Portfolio: portfolio.md
+theme:
+  name: material
+#  favicon: img/favicon.svg
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  - tables
+
+extra_javascript:
+  - js/tableFormatter.js
+
+extra_css:
+  - css/portfolio.css

@@ -16,16 +16,18 @@
 
 - name: Decapodes
   dates:
-    start: 8/2014
-    end: 8/2015
+    start: 6/2020
+    end: 5/2022
   image: decapodes.png
   url:
     name: Documentation
     link: https://algebraicjulia.github.io/Decapodes.jl/dev/
   description: >-
-    Interactive tool for experimenting with and visualizing various aspects of electromagnetic fields.
+    Multiphysics simulation software designed with a high level of modularity, using concepts from applied category theory to make a tool which allows both rapid modeling as well as fine-tuned descriptions of dynamic systems.
   skills:
     - name: Julia
-      desc: The simulation library was written in Julia, using Catlab.jl for
+      desc: The simulation library was written in Julia, using Catlab.jl for model construction and DifferentialEquations.jl for simulation.
     - name: Simulation
-      desc: This tool simulated a static electric field based off of user-placed charges.
+      desc: This software generates code which simulates a described physical system.
+    - name: Multiphysics
+      desc: This software allows users to couple multiple physical phenomena to generate multiphysics simulations.

@@ -1,0 +1,31 @@
+- name: EMField Simulator
+  dates:
+    start: 8/2014
+    end: 8/2015
+  image: emfields.png
+  url:
+    name: Github
+    link: https://github.com/bosonbaas/EMFields
+  description: >-
+    Interactive tool for experimenting with and visualizing various aspects of electromagnetic fields.
+  skills:
+    - name: Java
+      desc: The simulation tool was developed in Java using the Swing library for the UI.
+    - name: Simulation
+      desc: This tool simulated a static electric field based off of user-placed charges.
+
+- name: Decapodes
+  dates:
+    start: 8/2014
+    end: 8/2015
+  image: decapodes.png
+  url:
+    name: Documentation
+    link: https://algebraicjulia.github.io/Decapodes.jl/dev/
+  description: >-
+    Interactive tool for experimenting with and visualizing various aspects of electromagnetic fields.
+  skills:
+    - name: Julia
+      desc: The simulation library was written in Julia, using Catlab.jl for
+    - name: Simulation
+      desc: This tool simulated a static electric field based off of user-placed charges.

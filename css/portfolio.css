@@ -1,0 +1,33 @@
+.skill {
+  background-color: #f8f8f8; 
+  color: black; 
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.skill:disabled {
+  color: rgb(116, 116, 116); 
+  background-color: rgb(248, 248, 248);
+}
+
+.skill:not([disabled]):hover {
+  background-color: rgb(232, 227, 227);
+}
+
+
+.skill.selected {
+  background-color: rgb(184, 164, 164);
+}
+
+.skill.selected {
+  background-color: #b9a4a4;
+}

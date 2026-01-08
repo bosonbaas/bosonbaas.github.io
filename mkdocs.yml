@@ -5,7 +5,7 @@ nav:
   - Portfolio: portfolio.md
 theme:
   name: material
-#  favicon: img/favicon.svg
+  favicon: img/favicon.svg
 
 plugins:
   - search

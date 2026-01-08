@@ -177,3 +177,36 @@
       desc: Python libraries like NetworkX and sklearn were used to process graphs and run statistical analyses.
     - name: Bash
       desc: Bash was used to orchestrate analysis suites on a linux server.
+
+- name: "Crosstalk: Silicon Photomultiplier Simulation"
+  dates:
+    start: 5/2017
+    end: 8/2017
+  image: crosstalk.png
+  url:
+    name: Github
+    link: https://github.com/potarf/crosstalk
+  description: >-
+    Developed a simulation of the SiPM units used in the LHC CMS experiment in order to classify detector behavior.
+  skills:
+    - name: Simulation
+      desc: We generated a digital simulation of the SiPM units, specifically focusing on the crosstalk phenomena.
+    - name: Java
+      desc: The simulation was coded in Java with the Processing tool providing a graphical interface.
+
+- name: "CMS QIE Database"
+  dates:
+    start: 5/2016
+    end: 8/2016
+  url:
+    name: Github
+    link: https://github.com/bosonbaas/CMS-QIE_database
+  description: >-
+    Developed a Django database to track QIE detector cards as they were tested at Fermilab, recieved at the LHC, and installed into the CMS experiment.
+  skills:
+    - name: Django
+      desc: We used Django as the interface for our database.
+    - name: HTML
+      desc: Django uses HTML templates to organize the web front end.
+    - name: Python
+      desc: Python was used both for the Django implementation and for data ingestion and cleaning

@@ -1,3 +1,37 @@
+- name: Nested Argumentation
+  dates:
+    start: 8/2025
+    end: 1/2026
+  url:
+    name: Github [WORK IN PROGRESS]
+    link: https://github.com/bosonbaas/Nested-Arguments
+  description: >-
+    Interactive tool for generating diagrams of arguments ranging from informal argumentation to mathematical proof.
+  skills:
+    - name: React
+      desc: This website is built using React components
+    - name: Typescript
+      desc: This website is built with Typescript
+    - name: Zustand
+      desc: State management is done with Zustand
+
+- name: Unofficial Desmos CL Docs
+  dates:
+    start: 11/2025
+    end: 1/2026
+  url:
+    name: Website
+    link: https://bosonbaas.github.io/cl_docs/
+  description: >-
+    Documention-style website which consolidates helpful information from the <a href="https://cl.desmos.com/">CL Forums</a> which is not present in the official <a href="https://classroom.amplify.com/computation-layer/documentation">Desmos CL documentation</a>
+  skills:
+    - name: Desmos CL
+      desc: Developing this website required a clear understanding of the syntax and uses of Desmos CL.
+    - name: Markdown
+      desc: MkDocs uses markdown for page formatting
+    - name: Python
+      desc: Developed python functions to simplify data entry.
+
 - name: EMField Simulator
   dates:
     start: 8/2014
@@ -26,8 +60,120 @@
     Multiphysics simulation software designed with a high level of modularity, using concepts from applied category theory to make a tool which allows both rapid modeling as well as fine-tuned descriptions of dynamic systems.
   skills:
     - name: Julia
-      desc: The simulation library was written in Julia, using Catlab.jl for model construction and DifferentialEquations.jl for simulation.
+      desc: This software was written in Julia, using Catlab.jl for model construction and DifferentialEquations.jl for simulation.
     - name: Simulation
       desc: This software generates code which simulates a described physical system.
     - name: Multiphysics
       desc: This software allows users to couple multiple physical phenomena to generate multiphysics simulations.
+
+- name: AlgebraicPetri
+  dates:
+    start: 6/2020
+    end: 5/2022
+  image: algebraic_petri.png
+  url:
+    name: Documentation
+    link: https://algebraicjulia.github.io/AlgebraicPetri.jl/stable/
+  description: >-
+    Library for generating Petri net models compositionally. This library facilitates rapid generation of complex epidemiological and biochemical models use model composition and pattern-based stratification.
+  skills:
+    - name: Julia
+      desc: This library was written in Julia, using Catlab.jl for model construction.
+    - name: Simulation
+      desc: This software generates code which simulates the described epidemiological system.
+    - name: Epidemiology
+      desc: This software was developed to allow epidemiologists to rapidly iterate models for COVID-19
+
+- name: AlgebraicRelations
+  dates:
+    start: 6/2020
+    end: 5/2022
+  image: algebraic_relations.png
+  url:
+    name: Github
+    link: https://github.com/AlgebraicJulia/AlgebraicRelations.jl
+  description: >-
+    Library developed to provide an intuitive and elegant method for generating and querying scientific databases.
+  skills:
+    - name: Julia
+      desc: This library was written in Julia, using Catlab.jl for data structures.
+    - name: PostgreSQL
+      desc: This software generates PostgreSQL schemas and queries.
+
+- name: Word Frequency Explorer
+  dates:
+    start: 8/2019
+    end: 4/2021
+  description: >-
+    Website developed for historical linguistic analyses. This website generated time-series plots of the frequency of user-provided words as they appeared in Congressional Serial Sets.
+  skills:
+    - name: Go
+      desc: This website was built on a Go webserver.
+    - name: Solr
+      desc: The Congressional Serial Sets were ingested into a Solr database, which was in turn queried by the Go front end.
+    - name: Plotly
+      desc: The time-series plot was generated using Plotly.
+    - name: HTML
+      desc: Used for organizing the website front end.
+    - name: CSS
+      desc: Used for styling the website front end.
+
+- name: Gendered Proof Language
+  dates:
+    start: 8/2024
+    end: 5/2025
+  description: >-
+    Developed software for performing natural language processing on a large corpus of mathematical papers. This software extended traditional qualitative language analysis methods using a combination of rules-based and LLM semantic disambiguation.
+  skills:
+    - name: Python
+      desc: All data analysis software was written in Python, leaning heavily on pandas, sklearn, and tensorflow
+    - name: Bash
+      desc: Bash was used to orchestrate the data analysis pipeline on a cluster computing system.
+    - name: HPC
+      desc: All analyses were run on a cluster computing system.
+
+- name: Scaffolding Strategies for Undergraduate Mathematics Modeling
+  dates:
+    start: 8/2022
+    end: 5/2024
+  description: >-
+    Developed software for statistical analysis and data visualization of qualitatively coded video data. The analysis and visualizations were used to investigate the relationship between student modeling and instructor scaffolding in the context of differential equations.
+  skills:
+    - name: Python
+      desc: Data analysis was performed using sklearn, and pandas. Visualizations were generated using matplotlib and plotly.
+    - name: SKLearn
+      desc: Used sklearn for cluster analysis.
+    - name: Pandas
+      desc: Used pandas for storing and organizing data.
+    - name: R
+      desc: I modified existing R code to customize it for our analyses.
+
+- name: Caclulating Inter-Rater Reliability on Time Sequential Data
+  dates:
+    start: 5/2023
+    end: 8/2023
+  url:
+    name: ICME Proceedings
+    link: https://par.nsf.gov/servlets/purl/10510999
+  description: >-
+    Investigated the properties of different inter-rater reliability methods used in qualitative research
+  skills:
+    - name: Python
+      desc: Data analysis was performed using sklearn, numpy, and pandas. Visualizations were generated using matplotlib and plotly.
+
+- name: Local Graphlet Prediction of Virality
+  dates:
+    start: 5/2018
+    end: 8/2018
+  url:
+    name: IEEE Publication
+    link: https://ieeexplore.ieee.org/document/8622605
+  description: >-
+    Investigated the effect of local structure on virality processes in a networked system.
+  skills:
+    - name: Graph Analysis
+      desc: All analysis was performed on graph-based data (social networks)
+    - name: Python
+      desc: Python libraries like NetworkX and sklearn were used to process graphs and run statistical analyses.
+    - name: Bash
+      desc: Bash was used to orchestrate analysis suites on a linux server.

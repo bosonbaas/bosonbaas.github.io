@@ -37,7 +37,7 @@
   dates:
     start: 8/2014
     end: 8/2015
-  image: emfields.png
+  image: emfields.pngi
   url:
     name: Github
     link: https://github.com/bosonbaas/EMFields
@@ -221,7 +221,7 @@
     start: 1/2025
     end: 8/2025
   description: >-
-    My masters thesis, in which I extend existing methods for analyzing in signed graph data (relational data with +/- signs on each edge). I then apply these methods to FBI Crime data, identifying anomalous crime data and proposing an explanation for the anomalous data.
+    My masters thesis, in which I extend existing methods for analyzing signed graph data (relational data with +/- signs on each edge). I then apply these methods to FBI Crime data, identifying anomalous crime data and proposing an explanation for the anomalous data.
   image: thesis.svg
   skills:
     - name: Julia

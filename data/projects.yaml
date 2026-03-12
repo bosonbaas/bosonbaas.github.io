@@ -1,7 +1,7 @@
 - name: Nested Argumentation
   dates:
     start: 8/2025
-    end: 1/2026
+    end: 3/2026
   url:
     name: Github [WORK IN PROGRESS]
     link: https://github.com/bosonbaas/Nested-Arguments
@@ -19,7 +19,7 @@
 - name: Unofficial Desmos CL Docs
   dates:
     start: 11/2025
-    end: 1/2026
+    end: 3/2026
   url:
     name: Website
     link: https://bosonbaas.github.io/cl_docs/

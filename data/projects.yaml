@@ -7,6 +7,7 @@
     link: https://github.com/bosonbaas/Nested-Arguments
   description: >-
     Interactive tool for generating diagrams of arguments ranging from informal argumentation to mathematical proof.
+  image: nested_arguments.png
   skills:
     - name: React
       desc: This website is built using React components
@@ -131,6 +132,8 @@
       desc: Bash was used to orchestrate the data analysis pipeline on a cluster computing system.
     - name: HPC
       desc: All analyses were run on a cluster computing system.
+    - name: Quant Analysis
+    - name: Qual Analysis
 
 - name: Scaffolding Strategies for Undergraduate Mathematics Modeling
   dates:
@@ -147,6 +150,8 @@
       desc: Used pandas for storing and organizing data.
     - name: R
       desc: I modified existing R code to customize it for our analyses.
+    - name: Quant Analysis
+    - name: Qual Analysis
 
 - name: Caclulating Inter-Rater Reliability on Time Sequential Data
   dates:
@@ -210,3 +215,17 @@
       desc: Django uses HTML templates to organize the web front end.
     - name: Python
       desc: Python was used both for the Django implementation and for data ingestion and cleaning
+
+- name: "Identification of Dichotomous Communities in Signed Graphs using Coherence-Based Metrics"
+  dates:
+    start: 1/2025
+    end: 8/2025
+  description: >-
+    My masters thesis, in which I extend existing methods for analyzing in signed graph data (relational data with +/- signs on each edge). I then apply these methods to FBI Crime data, identifying anomalous crime data and proposing an explanation for the anomalous data.
+  image: thesis.svg
+  skills:
+    - name: Julia
+      desc: The analysis was implemented in the Julia programming language
+    - name: Graph Analysis
+      desc: The analysis performed in the thesis is an extension of previous graph analysis methods.
+    - name: Quant Analysis

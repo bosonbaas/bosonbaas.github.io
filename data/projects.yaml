@@ -24,7 +24,7 @@
     name: Website
     link: https://bosonbaas.github.io/cl_docs/
   description: >-
-    Documention-style website which consolidates helpful information from the <a href="https://cl.desmos.com/">CL Forums</a> which is not present in the official <a href="https://classroom.amplify.com/computation-layer/documentation">Desmos CL documentation</a>
+    Documentation-style website which consolidates helpful information from the <a href="https://cl.desmos.com/">CL Forums</a> which is not present in the official <a href="https://classroom.amplify.com/computation-layer/documentation">Desmos CL documentation</a>
   skills:
     - name: Desmos CL
       desc: Developing this website required a clear understanding of the syntax and uses of Desmos CL.
@@ -37,7 +37,7 @@
   dates:
     start: 8/2014
     end: 8/2015
-  image: emfields.pngi
+  image: emfields.png
   url:
     name: Github
     link: https://github.com/bosonbaas/EMFields
@@ -153,7 +153,7 @@
     - name: Quant Analysis
     - name: Qual Analysis
 
-- name: Caclulating Inter-Rater Reliability on Time Sequential Data
+- name: Calculating Inter-Rater Reliability on Time Sequential Data
   dates:
     start: 5/2023
     end: 8/2023
@@ -207,7 +207,7 @@
     name: Github
     link: https://github.com/bosonbaas/CMS-QIE_database
   description: >-
-    Developed a Django database to track QIE detector cards as they were tested at Fermilab, recieved at the LHC, and installed into the CMS experiment.
+    Developed a Django database to track QIE detector cards as they were tested at Fermilab, received at the LHC, and installed into the CMS experiment.
   skills:
     - name: Django
       desc: We used Django as the interface for our database.
